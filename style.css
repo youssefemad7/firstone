@@ -1,0 +1,3171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height: 130px;
+background-color: white;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+}
+.navleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navleft input
+{
+    border-radius: 50px;
+    border: none;
+    background-color: #f5f0f0;
+    font-size: 15px;
+    height: 40px;
+    padding: 7px 16px 9px 36px;
+    outline: none;
+}
+
+.navleft i
+{
+    color: #606770;
+    position: absolute;
+    left: 120px;
+}
+
+.navmiddle
+{
+    border: 3px solid black;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif; 
+    padding: 5px 10px;
+    margin-left:100px ;
+    margin-right:200px ;
+}
+.navright
+{
+display: flex;
+align-items: center;
+justify-content: center;
+transition-duration: 0.2s ;
+color: #606770;
+
+}
+.navright div{
+    margin: 10px;
+
+}
+.navright i:hover
+{
+    color: black;
+    margin-top: 5px;
+}
+.sec1{
+  
+    margin-bottom: 50px;
+}
+.firstsec1{
+    font-family: 'Cairo', sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstsec1 a 
+{
+    text-decoration: none;
+    color: black;
+}
+.firstsec1 a:hover
+{
+    color: blueviolet;
+}
+.sec1 div{
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.firstsec1 div:hover{
+    color: blueviolet;
+}
+.secondsec1 img{
+    width: 101%;
+}
+.secondsec1 div{
+    position: absolute;
+    right: 250px;
+    bottom: 50px;
+    font-family: 'Cairo', sans-serif; 
+
+    
+}
+.secondsec1 h1
+{
+font-size: 50px;
+
+}
+.secondsec1 button
+{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out; 
+}
+.secondsec1 button:hover
+{
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+} 
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    font-family: 'Cairo', sans-serif; 
+
+
+}
+.sec2 i{
+    font-size: 40px;
+    color: blueviolet;
+    margin: 30px;
+}
+.leftsec2{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    left: 90px;
+
+}
+.middlesec2{
+
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    
+}
+
+.rightsec2{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    right: 90px;
+}
+.sec2 p{
+    color: #606770;
+}
+.leftsec22
+{
+    position: relative;
+    bottom: 10px;
+}
+.middlesec22
+{
+    position: relative;
+    bottom: 15px;
+}
+.rightsec22
+{
+    position: relative;
+    bottom: 15px;
+}
+.sec3
+{
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+.sec3 img
+{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+    -moz-transition: all 0.4s ease-in-out ;
+    -webkit-transition: all 0.4s ease-in-out ;
+    -o-transition:  all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+   
+  
+}
+.sec3 img:hover
+{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+
+    
+
+}
+
+.sec3 h1{
+    font-size: 40px;
+    font-family: 'Cairo', sans-serif; 
+    color: white;
+    position: relative;
+    bottom:100px;
+
+}
+.sec3 p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif; 
+    color: white;
+    position: relative;
+    bottom:100px;
+
+}
+.img1{
+    position: relative;
+    left:90px;
+
+} 
+.img2
+{
+position: relative;
+left: 30px;
+
+}
+.img3{
+    position: relative;
+    right:40px;
+} 
+.middlesec3
+{
+position: relative;
+left: 80px;
+}
+.leftsec3{
+    position: relative;
+    left: 140px;
+}
+.rightsec3{
+    position: relative;
+    left: 10px;
+}
+.h6
+{
+    font-size: 30px;
+    position: absolute ;
+    top: 1270px;
+    left: 700px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.sec4
+{
+    background-color: #eeeded;
+    height: 900px;
+
+}
+.sec4 div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    margin-right: 15px;
+}
+.sec4 i
+{
+    color: blueviolet;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    
+}
+.sec4h1
+{
+margin-bottom: 40px;
+}
+
+.sec4img2{
+    background-color: white;
+    height: 520px;
+    position: relative;
+    bottom: 10px;
+
+
+}
+.sec4 img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 120px;
+    z-index: 3;
+
+}
+.sec4img1{
+    background-color: white;
+    height: 500px;
+}
+.sec4img3{
+    background-color: white;
+    height: 500px;
+}
+.sec4 h2
+{
+    position: absolute;
+    right: 1150px;
+    top: 2600px;
+color: blueviolet;
+
+}
+.sec4 h3
+{
+    position: absolute;
+    top: 2600px;
+    font-size: 20px;
+    color: blueviolet;
+
+
+}
+.sec4 h4
+{
+    position: absolute;
+    right: 310px;
+    top: 2600px;
+    font-size: 20px;
+    color: blueviolet;
+
+}
+.p1
+{
+    position: absolute;
+    right: 1120px;
+    top: 2650px;
+}
+.p2
+{
+    position: absolute;
+    top: 2650px;
+
+}
+.p3
+{
+    position: absolute;
+    top: 2650px;
+    right: 275px;
+
+}
+.p4
+{
+position: absolute;
+right: 1175px;
+top: 2690px;
+color: blueviolet;
+font-weight: bold;
+
+}
+.p5
+{
+    position: absolute;
+    top: 2690px;
+    color: blueviolet;
+    font-weight: bold;
+
+
+}
+.p6
+{
+    position: absolute;
+    right: 340px;
+    top: 2690px;
+    color: blueviolet;
+    font-weight: bold;
+
+}
+.sec5
+{
+    font-family: 'Cairo', sans-serif; 
+    margin-bottom: 100px;
+
+}
+.sec5i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: blueviolet;
+
+}
+
+.sec5 h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    margin-bottom: 50px;
+
+}
+.undersec5
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.undersec5 img
+{
+width: 800px;
+height: 500px;
+}
+
+.undersec5 h1
+{
+    color: blueviolet;
+    font-size: 35px;
+}
+.underrightsec5
+{
+    position: relative;
+    left: 85px;
+}
+.underrightsec5
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+}
+.underrightsec5 h4
+{
+color: #606770;
+position: relative;
+right:15px;
+}
+.underrightsec5 h3
+{
+color: blueviolet;
+position: relative;
+right:15px;
+}
+.underrightsec5 h5
+{
+    color: #606770;
+    position: relative;
+    left:10px;
+}
+.undersec5 p
+{
+    color: #606770;
+}
+.undersec5 button
+{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out; 
+   position: relative;
+   left: 100px;
+   top: 15px;
+}
+.undersec5 button:hover
+{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+footer
+{
+    font-family: 'Cairo', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+}
+.navigition 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    position: relative;
+    bottom: 40px;
+
+   
+}
+.navigition h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.navigition li
+{
+
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.ul1
+{
+    position: relative;
+    bottom: 30px;
+    color: #606770;
+}
+.ul2
+{
+    position: relative;
+    right: 70px;
+    bottom:20px;
+    color: #606770;
+
+}
+.ul3
+{
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+    color: #606770;
+
+}
+.promo img
+{
+    width: 300px;
+    height: 150px;
+}
+.promo
+{
+    margin-top: 35px;
+    position: relative;
+    right: 70px;
+    bottom: 40px;
+}
+.promo h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.promo p
+{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+.promo h3
+{
+    font-size: 15px;
+    color: #606770;
+}
+.contacts
+{
+    margin-top: 170px;
+    position: relative;
+    right:10px ;
+
+    
+}
+.contacts i
+{
+    font-size: 20px;
+    color: blueviolet;
+    position: relative;
+    right: 20px;
+}
+.contacts p
+{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+.contact1 h1
+{
+    position: relative;
+    right: 25px;
+    bottom:  40px;
+}
+.contact2
+{
+    position: relative;
+    bottom: 50px;
+}
+.contact3
+{
+    position: relative;
+    bottom: 80px;
+}
+.undercontact3 input
+{
+    font-size: 20px;
+    height: 55px;
+    outline: none;
+    padding: 7px 16px 9px 20px;    
+}
+
+.undercontact3 button{
+    
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   bottom: 53px;
+   left: 140px;
+    
+}
+
+
+.undercontact3 button:hover{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+.lastone
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    top: 700px;
+
+
+}
+.lastone p
+{
+    color: #606770;
+}
+.lastone h1
+{
+    color: blueviolet;
+    font-size: 20px;
+}
+.sec22
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 13px;
+    font-family: 'Cairo', sans-serif; 
+    background-color: #ececec;
+    width: 100%;
+    height: 70px;
+    padding-left: 130px;
+    
+}
+.sec22 h1
+{
+    color: blueviolet;
+    font-size: 20px;
+    margin-right: 9px;
+}
+.sec22 p
+
+{
+    font-size: 20px;
+    margin-right: 9px;
+}
+.sec33
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: 'Cairo', sans-serif; 
+    margin-bottom: 150px;
+
+}
+.leftsec33 i 
+{
+    color: white;
+    position: absolute;
+    left: 390px;
+    top: 510px;
+    font-size: 130px;
+    z-index: 600;
+}
+.rightsec33 i
+{
+    color: blueviolet;
+    
+}
+.sec33 h2
+{
+    font-size: 25px;
+}
+.sec33 p
+{
+    color: #606770;
+}
+.sec33 img
+{
+    width: 750px;
+    height: 500px;
+}
+.sec44
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+.sec44 i
+{
+    color: blueviolet;
+    
+}
+.upsec44
+{
+    position: absolute;
+   
+    padding-bottom: 200px;
+}
+.upsec44 h1
+{
+    font-family: 'Cairo', sans-serif; 
+position: relative;
+right: 30px;
+}
+.sec44 img
+{
+    margin: 10px;
+    border-radius: 50%;  
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+}
+.sec44 h2
+{
+    position: relative;
+    top: 150px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.sec44 h4
+{
+    position: relative;
+    top: 160px;
+    left: 25px;
+    color: #606770;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.sec44 p
+{
+    position: relative;
+    top: 200px;
+    color: #606770;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.undersec441 h2
+{
+    position: relative;
+    left: 10px;
+
+}
+.undersec441 img
+{
+    position: relative;
+    left: 10px;
+}
+.undersec442 h2
+{
+    position: relative;
+    left: 20px;
+}
+.undersec442 h4
+{
+    position: relative;
+    left: 50px;
+}
+.undersec443 h2 
+
+{
+    position: relative;
+    left: 25px;
+}
+.undersec443 h4
+
+{
+    position: relative;
+    left: 40px;
+}
+.undersec444 h2 
+
+{
+    position: relative;
+    left: 25px;
+}
+.undersec444 h4
+
+{
+    position: relative;
+    left: 40px;
+}
+.leftthirdsec3 div
+{
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+.thirdsec3
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 100px;
+    top: 70px;
+
+} 
+.thirdsec3 h2
+{
+ font-size: 15px;
+ color: blueviolet;
+}
+.thirdsec3 p
+{
+    font-weight: bold;
+}
+.thirdsec3 h1
+{
+    padding-left: 15px;
+        padding-right: 15px;
+}
+.thirdsec4
+{
+    position: relative;
+    left:100px ;
+    top: 100px;
+    border: 1px solid black;
+    height: 600px;
+    width: 300px;
+    padding: 0px 15px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.thirdsec41 input
+{
+    width: 250px;
+    
+}
+.thirdsec41
+{
+    margin-top: 10px;
+}
+.thirdsec42
+{
+    margin-top: 15px;
+}
+.thirdsec43
+{
+    margin-top: 25px;
+}
+.thirdsec42 input
+{
+margin-top: 25px;    
+}
+.thirdsec43 i
+{
+margin-top: 25px;    
+}
+.i1
+{
+    color: red;
+}
+.i2
+{
+    color: green;
+}
+.i3
+{
+    color: blue;
+}
+.i4
+{
+    color: purple;
+}
+.thirdsec5
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+     left: 440px;
+    top:500px; 
+}
+.thirdsec5 img
+{
+    width:300px;
+    
+}
+.thirdsec5middle img
+{
+height: 210px;
+}
+.thirdsec5left
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.thirdsec5middle
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+
+}
+
+.thirdsec5right
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+}
+.thirdsec5 h1
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.thirdsec5 h2
+{
+    color: #606770;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 30px;
+}
+.thirdsec5 h4
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 140px;
+    top: 30px;
+}
+.thirdsec5 a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.thirdsec6
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+     left: 440px;
+    top:950px; 
+}
+.thirdsec6 img
+{
+    width:300px;
+    
+}
+.thirdsec6middle img
+{
+height: 210px;
+}
+.thirdsec6left
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.thirdsec6middle
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+
+}
+
+.thirdsec6right
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+}
+.thirdsec6 h1
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.thirdsec6 h2
+{
+    color: #606770;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 30px;
+}
+.thirdsec6 h4
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 140px;
+    top: 30px;
+}
+.thirdsec6 a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.thirdsec7
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 440px;
+   top:1400px; 
+}
+.thirdsec7 img
+{
+    width:300px;
+    
+}
+.thirdsec7middle img
+{
+height: 210px;
+}
+.thirdsec7left
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.thirdsec7middle
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+
+}
+
+.thirdsec7right
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+}
+.thirdsec7 h1
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.thirdsec7 h2
+{
+    color: #606770;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 30px;
+}
+.thirdsec7 h4
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 140px;
+    top: 30px;
+}
+.thirdsec7 a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.thirdsec8
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 440px;
+    top:1850px; 
+    
+
+}
+.thirdsec8 a
+{
+    text-decoration: none;
+}
+.thirdsec8 img
+{
+    width:300px;
+    text-decoration: none;
+    
+}
+.thirdsec8middle img
+{
+height: 210px;
+}
+.thirdsec8left
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+    margin-right: 15px;
+
+}
+
+.thirdsec8middle
+{
+    background-color: white;
+    box-shadow: 1px 2px 1px  rgba(19, 17, 17, 0.245) ;
+    height: 400px;
+    width: 300px;
+
+
+}
+
+.thirdsec8right
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(19, 17, 17, 0.245) ;
+
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+}
+.thirdsec8 h1
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.thirdsec8 h2
+{
+    color: #606770;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 30px;
+}
+.thirdsec8 h4
+{
+    color: blueviolet;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    left: 140px;
+    top: 30px;
+}
+.icons1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: blueviolet;
+    top: 2350px;
+    left: 730px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+    
+}
+.icons2
+{
+    background-color: blueviolet;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: white;
+    top: 2350px;
+    left: 780px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+    
+}
+.icons3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: blueviolet;
+    top: 2350px;
+    left: 830px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+    
+}
+.icons4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: blueviolet;
+    top: 2350px;
+    left: 880px;
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+}
+.icons5
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: blueviolet;
+    top: 2350px;
+    left: 930px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+    
+}
+.icons6
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: blueviolet;
+    top: 2350px;
+    left: 980px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+    
+}
+
+.icons7
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #4e5153;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: absolute ;
+    color: blueviolet;
+    top: 2350px;
+    left: 1030px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.245) ;
+
+    
+}
+.thirdsec9
+{
+    display: flex;
+    justify-content: space-between;
+    width: 910px;
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 450px;
+    bottom: 295px;
+}
+.thirdsec9 select
+{
+    font-size: 20px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #d5d6d7;
+    transition: all .2s ease-in-out; 
+
+}
+.thirdsec9 select:hover
+{
+    background-color: #4e5153;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+
+.thirdsec33
+{
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    margin-bottom: 50px;
+    top: 2500px;
+
+}
+.thirdsec33 img
+{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+    -moz-transition: all 0.4s ease-in-out ;
+    -webkit-transition: all 0.4s ease-in-out ;
+    -o-transition:  all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+   
+  
+}
+.thirdsec33 img:hover
+ {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+
+    
+
+}
+
+
+.thirdsec33 h1{
+    font-size: 40px;
+    font-family: 'Cairo', sans-serif; 
+    color: white;
+    position: relative;
+    bottom:100px;
+
+}
+.thirdsec33 p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif; 
+    color: white;
+    position: relative;
+    bottom:100px;
+
+}
+.thirdsec33img1{
+    position: relative;
+    left:90px;
+
+} 
+.thirdsec33img2
+{
+position: relative;
+left: 30px;
+
+}
+.thirdsec33img3{
+    position: relative;
+    right:40px;
+} 
+.thirdmiddlesec33
+{
+position: relative;
+left: 80px;
+}
+.thirdleftsec33{
+    position: relative;
+    left: 140px;
+}
+.thirdrightsec33{
+    position: relative;
+    left: 10px;
+}
+.thirdh6
+{
+    font-size: 30px;
+    position: absolute;
+        top: 2500px;
+        left: 700px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.thirdfooter
+{
+    font-family: 'Cairo', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    top: 3300px;
+}
+.thirdnavigition 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    position: relative;
+    bottom: 40px;
+
+   
+}
+.thirdnavigition h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.thirdnavigition li
+{
+
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.thirdul1
+{
+    position: relative;
+    bottom: 30px;
+    color: #606770;
+}
+.thirdul2
+{
+    position: relative;
+    right: 70px;
+    bottom:20px;
+    color: #606770;
+
+}
+.thirdul3
+{
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+    color: #606770;
+
+}
+.thirdpromo img
+{
+    width: 300px;
+    height: 150px;
+}
+.thirdpromo
+{
+    margin-top: 35px;
+    position: relative;
+    right: 70px;
+    bottom: 40px;
+}
+.thirdpromo h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.thirdpromo p
+{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+.thirdpromo h3
+{
+    font-size: 15px;
+    color: #606770;
+}
+.thirdcontacts
+{
+    margin-top: 170px;
+    position: relative;
+    right: 10px;
+
+    
+}
+.thirdcontacts i
+{
+    font-size: 20px;
+    color: blueviolet;
+    position: relative;
+    right: 20px;
+}
+.thirdcontacts p
+{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+.thirdcontact1 h1
+{
+    position: relative;
+    right: 25px;
+    bottom:  40px;
+}
+.thirdcontact2
+{
+    position: relative;
+    bottom: 50px;
+}
+.thirdcontact3
+{
+    position: relative;
+    bottom: 80px;
+}
+.thirdundercontact3 input
+{
+    font-size: 20px;
+    height: 55px;
+    outline: none;
+    padding: 7px 16px 9px 20px;    
+}
+
+.thirdundercontact3 button{
+    
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   bottom: 53px;
+   left: 140px;
+    
+}
+
+
+.thirdundercontact3 button:hover{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+.thirdlastone
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    top: 2900px;
+
+
+}
+.thirdlastone p
+{
+    color: #606770;
+}
+.thirdlastone h1
+{
+    color: blueviolet;
+    font-size: 20px;
+}
+.fourthsec3 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.rightfourthsec3
+{
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    right: 100px;
+    top: 30px;
+
+}
+.rightfourthsec3 h1
+{
+font-size: 30px;
+}
+.rightfourthsec3 p
+{
+    color: #606770;
+}
+.rightfourthsec3 h2
+{
+    color: blueviolet;
+}
+.rightfourthsec3 input 
+{
+    margin-right: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+.rightfourthsec3 button
+{
+    
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out; 
+   position: relative;
+   top: 35px;
+   left: 10px;
+}
+
+.rightfourthsec3 button:hover 
+
+{
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+
+}
+.fourthsec3input1
+{
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    left: 20px;
+}
+
+.icon8
+
+{
+position: absolute;
+left: 90px;
+top: 338px;
+z-index: 5;
+color: blueviolet;
+border: 1px solid blueviolet;
+width: 20px;
+height: 35px;
+padding-left:5px ;
+
+}
+.icon8:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.icon9
+{
+    position: absolute;
+    top: 338px;
+    left: 30px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 20px;
+    height: 35px;
+    padding-left:5px ;
+    z-index: 5;
+    
+}
+.icon9:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    background-color: blueviolet;
+    color: white;
+    cursor: context-menu;
+    cursor: pointer;
+}
+
+.rightfourthsec3 h6
+{
+    position: relative;
+    left: 67px;
+    bottom: 26px;
+}
+.forthsec4
+{
+    background-color: #eeeded;
+    height: 900px;
+
+}
+.forthsec4 div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    margin-right: 15px;
+}
+.forthsec4 i
+{
+    color: blueviolet;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    
+}
+.forthsec4h1
+{
+margin-bottom: 40px;
+}
+
+.forthsec4img2{
+    background-color: white;
+    height: 520px;
+    position: relative;
+    bottom: 10px;
+
+
+}
+.forthsec4 img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 120px;
+    z-index: 3;
+
+}
+.forthsec4img1{
+    background-color: white;
+    height: 500px;
+}
+.forthsec4img3{
+    background-color: white;
+    height: 500px;
+}
+.forthsec4 h2
+{
+    position: absolute;
+    right: 1150px;
+    top: 1500px;
+    color: blueviolet;
+
+}
+.forthsec4 h3
+{
+    position: absolute;
+    top: 1500px;
+    font-size: 20px;
+    color: blueviolet;
+
+
+}
+.forthsec4 h4
+{
+    position: absolute;
+    right: 310px;
+    top: 1500px;
+    font-size: 20px;
+    color: blueviolet;
+
+}
+.forthp1
+{
+    position: absolute;
+    right: 1120px;
+    top: 1550px;
+}
+.forthp2
+{
+    position: absolute;
+    top: 1550px;
+
+}
+.forthp3
+{
+    position: absolute;
+    top: 1550px;
+    right: 275px;
+
+}
+.forthp4
+{
+position: absolute;
+right: 1175px;
+top: 1590px;
+color: blueviolet;
+font-weight: bold;
+
+}
+.forthp5
+{
+    position: absolute;
+    top: 1590px;
+    color: blueviolet;
+    font-weight: bold;
+
+
+}
+.forthp6
+{
+    position: absolute;
+    right: 340px;
+    top: 1590px;
+    color: blueviolet;
+    font-weight: bold;
+
+}
+.fifthsec3 img
+{
+width: 150px;
+height: 100px;
+}
+.fifthsec3 table 
+{
+    border: 1px solid #606770;
+
+    width: 1300px;
+    position: relative;
+    margin-top: 50px;
+    left: 120px;
+    font-family: 'Cairo', sans-serif; 
+    padding-left: 60px;
+  
+}
+ .fifthsec3 td 
+{
+    /* border: 1px solid black; */
+    padding-top: 40px;
+} 
+
+
+.tr1 td
+{
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.tr22 
+{
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+
+}
+.tr23
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr24
+{
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+
+}
+.tr25
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr26
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr32
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr33
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr34 
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr35 
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+.tr36
+{
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+
+}
+  
+
+.fifthsec3input1
+{
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    left: 20px;
+}
+
+.fifthicon8
+
+{
+position: absolute;
+left: 80px;
+z-index: 5;
+color: blueviolet;
+border: 1px solid blueviolet;
+width: 20px;
+height: 35px;
+padding-left:5px ;
+
+}
+.fifthicon8:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+
+}
+.fifthicon9
+{
+    position: absolute;
+    bottom: 44px;
+    left: 20px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 20px;
+    height: 35px;
+    padding-left:5px ;
+    z-index: 5;
+    
+}
+.fifthicon9:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    background-color: blueviolet;
+    color: white;
+    cursor: context-menu;
+    cursor: pointer;
+}
+.tr24 h6 
+{
+    position: relative;
+    left:55px;
+    top: 8px;
+}
+
+.tr34 h6 
+{
+    position: relative;
+    left:42px;
+    top: 8px;
+}
+
+.fifsec3input1
+{
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    left: 6px;
+}
+
+.fificon8
+
+{
+position: absolute;
+left: 66px;
+z-index: 5;
+color: blueviolet;
+border: 1px solid blueviolet;
+width: 20px;
+height: 35px;
+padding-left:5px ;
+
+}
+.fificon8:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.fificon9
+{
+    position: absolute;
+    bottom: 44px;
+    left: 6px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 20px;
+    height: 35px;
+    padding-left:5px ;
+    z-index: 5;
+    
+}
+.fificon9:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    background-color: blueviolet;
+    color: white;
+    cursor: context-menu;
+    cursor: pointer;
+}
+
+.hr1 
+{
+    position: relative;
+    top:160px;
+    width: 1300px;
+    left: 120px;
+    color: #606770;
+}
+.hr2 
+{
+    position: relative;
+    top:310px;
+    width: 1300px;
+    left: 120px;
+    color: #606770;
+
+}
+.hr3
+{
+    transform: rotate(90deg);
+    position: relative;
+    width: 394px;
+    left: 150px;
+    bottom: 200px;
+}
+.hr4
+{
+    transform: rotate(90deg);
+    position: relative;
+    width: 394px;
+    left: 460px;
+    bottom: 201px;
+}
+.hr5
+{
+    transform: rotate(90deg);
+    position: relative;
+    width: 394px;
+    left: 620px;
+    bottom: 203px;
+}
+.hr6
+{
+    transform: rotate(90deg);
+    position: relative;
+    width: 394px;
+    left: 850px;
+    bottom: 205px;
+}
+.hr7
+{
+    transform: rotate(90deg);
+    position: relative;
+    width: 394px;
+    left: 1000px;
+    bottom: 207px;
+}
+.h31 
+{
+    border: 1px sloid blueviolet;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+
+.h32
+{
+    border: 1px sloid blueviolet;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+
+
+
+.leftfifthsec4
+{
+    font-family: 'Cairo', sans-serif; 
+
+}
+.b1
+{
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;    
+}
+
+.b1:hover 
+{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+}
+.b2 
+{
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;    
+   border: 1px solid blueviolet;
+}
+.b2:hover 
+{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+}
+.b3 
+{
+    font-size: 15px;
+    height: 40px;
+    width: 180px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;    
+   border: 1px solid blueviolet;
+}
+.b3:hover 
+{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+
+}
+.leftfifthsec4 input 
+{
+    height: 39px;
+    width: 400px;
+    margin-right: 20px;
+    padding: 10px 16px 10px 36px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #696a6c;
+}
+.leftfifthsec4 div 
+{
+    margin-top: 20px;
+}
+.leftfifthsec4 
+{
+    position: absolute;
+    left: 120px;
+}
+.middleleftfifthsec4 p
+{
+color: #606770 ;
+}
+.middleleftfifthsec4 h1
+{
+margin-top: 50px;
+}
+
+.rightfifthsec4 div
+{
+    display: flex;
+    align-items: center;
+
+}
+.rightfifthsec4 
+{
+    position: absolute;
+    left: 1250px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.rightfifthsec4  h1
+{
+margin-top: 20px;
+border-bottom: 1px solid #606770;
+width: 250px;
+direction: rtl;
+position: relative;
+right: 80px;
+}
+.rightfifthsec4 h2
+{
+font-size: 15px;
+position: relative;
+right: 70px;
+top: 30px;
+}
+.rightfifthsec4 h3
+{
+font-size: 15px;
+position: relative;
+left: 68px;
+top: 30px;
+}
+.rightfifthsec4 h4
+{
+font-size: 15px;
+position: relative;
+right: 70px;
+top: 30px;
+}
+.rightfifthsec4 h5
+{
+font-size: 15px;
+position: relative;
+left: 90px;
+top: 30px;
+}
+.rightfifthsec4 button
+{
+font-size: 15px;
+position: relative;
+right: 70px;
+top: 80px;
+font-size: 15px;
+height: 50px;
+width: 250px;
+background-color: blueviolet;
+color: white;
+outline: none;
+border: none;
+border-radius:5px;
+transition: all .2s ease-in-out;    
+}
+.rightfifthsec4 button:hover 
+{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+}
+
+.hr8 
+{
+    position: relative;
+    top: 370px;
+}
+.fifthfooter
+{
+    font-family: 'Cairo', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    top: 1100px;
+}
+.fifthnavigition 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    position: relative;
+    bottom: 40px;
+
+   
+}
+.fifthnavigition h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.fifthnavigition li
+{
+
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.fifthul1
+{
+    position: relative;
+    bottom: 30px;
+    color: #606770;
+}
+.fifthul2
+{
+    position: relative;
+    right: 70px;
+    bottom:20px;
+    color: #606770;
+
+}
+.fifthul3
+{
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+    color: #606770;
+
+}
+.fifthpromo img
+{
+    width: 300px;
+    height: 150px;
+}
+.fifthpromo
+{
+    margin-top: 35px;
+    position: relative;
+    right: 70px;
+    bottom: 40px;
+}
+.fifthpromo h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.fifthpromo p
+{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fifthpromo h3
+{
+    font-size: 15px;
+    color: #606770;
+}
+.fifthcontacts
+{
+    margin-top: 170px;
+    position: relative;
+    right:10px ;
+
+    
+}
+.fifthcontacts i
+{
+    font-size: 20px;
+    color: blueviolet;
+    position: relative;
+    right: 20px;
+}
+.fifthcontacts p
+{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+.fifthcontact1 h1
+{
+    position: relative;
+    right: 25px;
+    bottom:  40px;
+}
+.fifthcontact2
+{
+    position: relative;
+    bottom: 50px;
+}
+.fifthcontact3
+{
+    position: relative;
+    bottom: 80px;
+}
+.fifthundercontact3 input
+{
+    font-size: 20px;
+    height: 55px;
+    outline: none;
+    padding: 7px 16px 9px 20px;    
+}
+
+.fifthundercontact3 button{
+    
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   bottom: 53px;
+   left: 140px;
+    
+}
+
+
+.fifthundercontact3 button:hover{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+.fifthlastone
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    top: 1000px;
+
+
+}
+.fifthlastone p
+{
+    color: #606770;
+}
+.fifthlastone h1
+{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.uperdiv input
+{
+    position: relative;
+    width:1280px;
+    height: 75px;
+    left: 150px;
+    padding-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border: solid #8f8f8f 1px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downdiv h2 
+{
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 150px;
+    margin-bottom: 50px;
+}
+.leftdowndiv
+{
+    border: 1px solid #c3c2c2;
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 150px;
+    padding: 50px;
+    top: 550px;
+    width: 600px;
+    height: 1250px;
+}
+.leftdowndiv1 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 500px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+
+}
+.leftdowndiv2
+{
+  display: flex;
+  
+}
+.leftdowndiv3 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 225px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        margin-right: 50px;
+}
+.leftdowndiv4 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 225px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+}
+
+.leftdowndiv5 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 500px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+
+}
+.leftdowndiv6 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 500px;
+        height: 60px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+}
+.leftdowndiv7 
+{
+  display: flex;
+  
+}
+.leftdowndiv8 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 225px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        margin-right: 50px;
+}
+.leftdowndiv9 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 225px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+}
+
+.leftdowndiv10
+{
+  display: flex;
+  margin-bottom: 30px;
+  
+}
+.leftdowndiv11 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 225px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        margin-right: 50px;
+}
+.leftdowndiv12 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 225px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+}
+.leftdowndiv13 textarea
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+}
+
+ .rightsissec3
+{
+    position: absolute;
+    left: 790px;
+    top: 502px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec3 
+{
+    border: #8f8f8f 1px solid;
+    height: 200px;
+    width: 600px;
+    padding: 50px;
+    margin-top: 5px;
+}
+
+.downsissec3 p
+{
+    font-family: 'Cairo', sans-serif; 
+    color: #606770 ;
+    position: relative;
+    bottom: 15px;
+}
+.downsissec3 h1
+{
+    font-family: 'Cairo', sans-serif; 
+    
+}
+.downsissec3 input 
+{
+    height: 39px;
+    width: 250px;
+    margin-right: 20px;
+    padding: 10px 16px 10px 36px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #696a6c;
+}
+.sisb3 
+{
+    font-size: 15px;
+    height: 40px;
+    width: 180px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+   transition: all .2s ease-in-out;    
+   border: 1px solid blueviolet;
+   position: relative;
+   bottom: 2px;
+   right: 25px;
+}
+.sisb3:hover 
+{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+
+}
+.sissec4 h1 
+{
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 790px;
+    top: 800px;
+}
+.downsissec4 
+{
+    position: absolute;
+    left: 790px;
+    top: 850px;
+    border: #8f8f8f 1px solid;
+    padding-left: 50px;
+    padding-top: 100px;
+    height: 850px;
+    width: 600px;
+    margin-top: 5px;
+    font-size: 15px;
+} 
+
+.downsissec4 div
+{
+display: flex;
+align-items: center;
+margin-bottom: 25px;
+}
+.downsissec41 p 
+{
+    position: relative;
+    left: 250px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif; 
+
+    
+}
+.downsissec42 p 
+{
+    position: relative;
+    left: 190px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec43 p 
+{
+    position: relative;
+    left: 215px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec44 p 
+{
+    position: relative;
+    left: 215px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec45 p 
+{
+    position: relative;
+    left: 230px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec41 h2
+{
+  
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif; 
+
+    
+}
+.downsissec42 h3 
+{
+    
+    font-family: 'Cairo', sans-serif; 
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.downsissec43 h4 
+{
+ 
+    font-family: 'Cairo', sans-serif; 
+    font-size: 15px;
+    font-weight: 100;
+}
+.downsissec44 h5
+{
+   
+  
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec45 h6
+{
+  
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif; 
+
+}
+.downsissec41 
+{
+    border-bottom: #8f8f8f 1px solid;
+    padding-bottom:25px;
+    width: 500px;
+}
+
+.downsissec42
+{
+    border-bottom: #8f8f8f 1px solid;
+    padding-bottom:25px;
+    width: 500px;
+
+}
+
+.downsissec43 
+{
+    border-bottom: #8f8f8f 1px solid;
+    padding-bottom:25px;
+    width: 500px;
+
+}
+
+.downsissec44 
+{
+    border-bottom: #8f8f8f 1px solid;
+    padding-bottom:25px;
+    width: 500px;
+
+}
+.downsissec46 input
+{
+    font-family: 'Cairo', sans-serif; 
+        width: 500px;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        position: relative;
+        left:840px;
+        top: 860px;
+} 
+    .downsissec46 input::placeholder
+{
+        color: blueviolet;
+        font-size: 15px;
+        font-family: 'Cairo', sans-serif; 
+
+}
+
+.finalb button
+{
+    font-size: 20px;
+    height: 70px;
+    width: 500px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out; 
+   position: relative;
+   left: 840px;
+   top: 900px;
+}
+.finalb button:hover
+{
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+} 
+
+.sisfooter
+{
+    font-family: 'Cairo', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    top: 1850px;
+}
+.sisnavigition 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    position: relative;
+    bottom: 40px;
+
+   
+}
+.sisnavigition h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.sisnavigition li
+{
+
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.sisul1
+{
+    position: relative;
+    bottom: 30px;
+    color: #606770;
+}
+.sisul2
+{
+    position: relative;
+    right: 70px;
+    bottom:20px;
+    color: #606770;
+
+}
+.sisul3
+{
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+    color: #606770;
+
+}
+.sispromo img
+{
+    width: 300px;
+    height: 150px;
+}
+.sispromo
+{
+    margin-top: 35px;
+    position: relative;
+    right: 70px;
+    bottom: 40px;
+}
+.sispromo h1
+{
+    position: relative;
+    bottom: 40px;
+}
+.sispromo p
+{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sispromo h3
+{
+    font-size: 15px;
+    color: #606770;
+}
+.siscontacts
+{
+    margin-top: 170px;
+    position: relative;
+    right:10px ;
+
+    
+}
+.siscontacts i
+{
+    font-size: 20px;
+    color: blueviolet;
+    position: relative;
+    right: 20px;
+}
+.siscontacts p
+{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+.siscontact1 h1
+{
+    position: relative;
+    right: 25px;
+    bottom:  40px;
+}
+.siscontact2
+{
+    position: relative;
+    bottom: 50px;
+}
+.siscontact3
+{
+    position: relative;
+    bottom: 80px;
+}
+.sisundercontact3 input
+{
+    font-size: 20px;
+    height: 55px;
+    outline: none;
+    padding: 7px 16px 9px 20px;    
+}
+
+.sisundercontact3 button{
+    
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   bottom: 53px;
+   left: 140px;
+    
+}
+
+
+.sisundercontact3 button:hover{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+.sislastone
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif; 
+    position: relative;
+    top: 2050px;
+
+
+}
+.sislastone p
+{
+    color: #606770;
+}
+.sislastone h1
+{
+    color: blueviolet;
+    font-size: 20px;
+}
+.sishr
+{
+    position: relative;
+    top: 1150px;
+}
+.seventhsec3 i
+{
+    position: relative;
+    left: 700px;
+    font-size: 90px;
+    color: green;
+}
+
+.seventhsec3 h1
+{
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 530px;
+    font-size: 90px;
+
+}
+.seventhsec3 p
+{
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 580px;
+    font-size: 20px;
+    top: 570px;
+    color: #606770;
+
+}
+.seventhsec3 button
+{
+    font-family: 'Cairo', sans-serif; 
+    position: absolute;
+    left: 650px;
+    font-size: 20px;
+    top: 650px;
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:5px;
+   transition: all .2s ease-in-out; 
+}
+.seventhsec3 button:hover 
+{
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245) ;
+    transform: translateY(-0.25em);
+    filter: brightness(90%) ;
+}
+.hr9 
+{
+position: relative;
+top: 400px;
+color: black;
+}
+.finally 
+{
+    position: relative;
+    top: 350px;
+}
